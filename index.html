@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stress Test</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Stress Test</h1>
+        <br>
+        <h4>Please fill out the survey and we will try to recommend some options for stress relief</h4>
+      </div>
+    </div>
+    <div class="container" id="">
+      <h3>Please check all that apply:</h3>
+      <br>
+      <form id="stress-survey">
+        <div class="row">
+          <div class="col-md-4 form-group">
+            <h4>Warning signs of being negatively affected by stress:</h4>
+            <input type="checkbox" name="warning-signs" value="sleep">Loss of sleep<br>
+            <input type="checkbox" name="warning-signs" value="overwhelmed">Feeling overwhelmed<br>
+            <input type="checkbox" name="warning-signs" value="appetite">Loss of appetite<br>
+            <input type="checkbox" name="warning-signs" value="energy">Lack of energy<br>
+            <input type="checkbox" name="warning-signs" value="relationships">Degrading relationships<br>
+          </div>
+          <div class="col-md-4 form-group">
+            <h4>Health symptoms linked to high-stress:</h4>
+            <input type="checkbox" name="health-symptoms" value="blood">High blood pressure<br>
+            <input type="checkbox" name="health-symptoms" value="anxiety">Anxiety<br>
+            <input type="checkbox" name="health-symptoms" value="hair">Loss of hair<br>
+            <input type="checkbox" name="health-symptoms" value="exhaust">Exhaustion<br>
+            <input type="checkbox" name="health-symptoms" value="eating">Over eating / Under aeting<br>
+          </div>
+          <div class="col-md-4 form-group">
+            <h4>Coping methods to deal with stress:</h4>
+            <input type="checkbox" name="coping-methods" value="meditation">Meditation<br>
+            <input type="checkbox" name="coping-methods" value="exercise">Regular exercise<br>
+            <input type="checkbox" name="coping-methods" value="pet">Spending time with a pet<br>
+            <input type="checkbox" name="coping-methods" value="time">Time management<br>
+            <input type="checkbox" name="coping-methods" value="social">Social activities<br>
+          </div>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <span id="response">
+        
+      </span>
+    </div>
+  </body>
+</html>
