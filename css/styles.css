@@ -1,3 +1,6 @@
 #response {
   display: none;
+  min-height: 200px;
+  background-color: pink;
+
 }
